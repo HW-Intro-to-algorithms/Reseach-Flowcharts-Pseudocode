@@ -1,0 +1,65 @@
+Flowchart 1
+Give scores to 3 students, along with whether they passed or not and whether or not they will receive a scholarship:
+START
+  Float A,b,c
+  Float score=0
+
+  For (i=1; i=<3;i++){
+
+  Print ("enter your exam grades")
+  Scan (a, b, c)
+
+  Score= (a+b+c)/3
+
+  Print (your score is score)
+	  If (score<7){ 
+		  Print (you did not pass)
+		  Print (you will not receive a scholarship)}
+		  Else{
+			  Print (you passed)
+			  If (score>9.5){print (you will receive a scholarship}
+			  }
+  }
+END
+
+
+Flowchart 2
+
+START
+  INT age,a=0;
+	DO{
+		
+		
+		PUTS "put your age"
+		SCANF "%d", &age
+		IF(age>=18){
+		PRINTF "you are of legal age with %d",age
+		}
+		ELSE{
+			if(age<=12){
+				printf("KID");
+			}else if(age>12&&eage<18){
+				printf("TEEN");
+			}
+		}
+		a=age+a;
+	
+	}while(age=100);
+  
+  
+  
+  Flowchart 3
+ 
+ START
+    Int sum=0
+    Int number
+
+    Print ("type a number between 1 and 10")
+    Read (number)
+
+    While (number!=7){
+	    Sum=number+sum
+	    Print("type another number between 1 and 10")
+	  Read (number)
+	  }
+END
