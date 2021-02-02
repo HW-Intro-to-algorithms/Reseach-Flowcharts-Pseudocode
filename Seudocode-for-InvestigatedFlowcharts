@@ -1,0 +1,37 @@
+InvestigatedFlowchart1
+
+START
+  i=0
+  sum=0
+  WHILE{
+    int x
+    sum=sum+x
+    i++
+    }
+   avg= sum/10
+   print avg
+   
+END
+
+InvestigatedFlowchart2
+
+START
+  sum=0
+  FOR(i=1;i<10;i++){
+    int x
+    sum=sum+x
+   avg=sum/10
+   print avg
+END
+
+InvestigatedFlowchart3
+
+START
+  int hours, rate
+  IF(hours<=40){
+    pay=hours*rate
+ }ELSE{
+   pay=40/rate +(hours-40)*rate*1.5
+  }
+ print pay
+END
