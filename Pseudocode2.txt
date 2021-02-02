@@ -1,0 +1,34 @@
+
+
+START
+	int num
+	PUTS "Program that evaluates the number of digits that a number contains" 
+	PUTS "enter a number"
+	SCANF "%d", &num
+	IF(num>=0 && num<=9){
+		PRINTF "one digit number"
+	}
+	ELSE IF(num>=10 && num<=99){
+		PRINTF "two-digit number"
+	}
+	ELSE IF(num>=100 && num<=999){
+		PRINTF "three-digit number"
+	}
+	ELSE IF(num>=1000 && num<=9999){
+		PRINFT"four-digit number"
+	}
+	ELSE IF(num>=10000 && num<=99999){
+		PRINTF"five-digit number"
+	}
+	ELSE IF(num>=100000 && num<=999999){
+		PRINTF"six-digit number"
+	}
+	ELSE IF(num>=1000000 && num<=9999999){
+		PRINTF"seven-digit number"	}
+	ELSE {
+		PRINTF "This number has more than 7 digits"
+	}
+
+
+
+END
