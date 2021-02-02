@@ -1,43 +1,43 @@
 START
 	int opcion;
-		PUTS "Programa que calcula area de un triangulo, cuadrado, rectangulo o circulo"
+		PUTS "program that calculates area of a triangle, square, rectangle or circle"
 		
-		PUTS "1.Triangulo		2.Cuadrado"
-		PUTS "3.Rectangulo		4.Ciruculo"
+		PUTS "1.Triangle		2.Square"
+		PUTS "3.Rectangule		4.Circle"
 		
-		PUTS "Tu seleccion es:	"
+		PUTS "Your selection is:	"
 		scanf("%d",&opcion)
 		switch(opcion){
 			float base,altura,areat
 			case 1:
-				PUTS "Ingrese base del triangulo"
+				PUTS "enter base of triangle"
 				SCANF "%f",&base
-				PUTS "Ingrese altura del triangulo"
+				PUTS "enter height of triangle"
 				SCANF "%f",&altura
 				areat=(base*altura)/2;
-				PRINT "El area es %f\n",areat
+				PRINT "The area is %f\n",areat
 				
 			float lado,areac
 			CASE 2:
-				PUTS "Ingrese un lado del cuadrado")
+				PUTS "enter one side of the square")
 				SCANF "%f",&lado
 				areac=lado*lado;
-				PRINT"El area es %f\n",areac
+				PRINT"The area is %f\n",areac
 				
 			float baser,alturar,arear
 			CASE 3:
-				PUTS "Ingrese base del rectangulo"
+				PUTS "enter base of rectangle"
 				SCANF "%f",&baser
-				PUTS"Ingrese altura del rectangulo"
+				PUTS"enter height of rectangle"
 				SCANF"%f",&alturar
 				arear=baser*alturar;
-				PRINT"El area es %f\n",arear
+				PRINT"The area is %f\n",arear
 			
 			float radio,areac
 			CASE 4:
-				PUTS "Ingrese radio del circulo"
+				PUTS "enter the radius of the circle"
 				SCANF "%f",&radio
 				areac=PI*(pow(radio),2);
-				PRINT "El area es %f\n",areac
+				PRINT "The area is %f\n",areac
 				float radio,areac
 END
