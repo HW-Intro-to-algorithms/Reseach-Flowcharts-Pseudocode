@@ -1,0 +1,43 @@
+START
+	int opcion;
+		PUTS "Programa que calcula area de un triangulo, cuadrado, rectangulo o circulo"
+		
+		PUTS "1.Triangulo		2.Cuadrado"
+		PUTS "3.Rectangulo		4.Ciruculo"
+		
+		PUTS "Tu seleccion es:	"
+		scanf("%d",&opcion)
+		switch(opcion){
+			float base,altura,areat
+			case 1:
+				PUTS "Ingrese base del triangulo"
+				SCANF "%f",&base
+				PUTS "Ingrese altura del triangulo"
+				SCANF "%f",&altura
+				areat=(base*altura)/2;
+				PRINT "El area es %f\n",areat
+				
+			float lado,areac
+			CASE 2:
+				PUTS "Ingrese un lado del cuadrado")
+				SCANF "%f",&lado
+				areac=lado*lado;
+				PRINT"El area es %f\n",areac
+				
+			float baser,alturar,arear
+			CASE 3:
+				PUTS "Ingrese base del rectangulo"
+				SCANF "%f",&baser
+				PUTS"Ingrese altura del rectangulo"
+				SCANF"%f",&alturar
+				arear=baser*alturar;
+				PRINT"El area es %f\n",arear
+			
+			float radio,areac
+			CASE 4:
+				PUTS "Ingrese radio del circulo"
+				SCANF "%f",&radio
+				areac=PI*(pow(radio),2);
+				PRINT "El area es %f\n",areac
+				float radio,areac
+END
